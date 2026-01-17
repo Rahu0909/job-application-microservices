@@ -1,0 +1,30 @@
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# Java build
+target/
+build/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ENV FILES (CRITICAL)
+*.env
+.env
+.env.*
+**/.env
+**/*.env
+
+# application secrets
+application-docker.properties
+application-k8s.properties
+
+# Docker override
+docker-compose.override.yml
